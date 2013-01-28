@@ -1,0 +1,73 @@
+Wesley Tansey
+wes.tansey@gmail.com
+(804)-867-5306
+ http://cs.utexas.edu/~tansey
+5207 Wayborne Hill Dr., Austin, TX 78723
+
+ **Personal Statement**
+ I am passionate about companies and ideas that have the potential to be hugely disruptive. I’m currently looking for a summer internship as a data scientist or software engineer at such a company.
+
+ I’m a PhD student in the Neural Networks Research Group at UT Austin. My main research interests are machine learning and game theory, particularly how we can use function approximators to scale to games with large state and action spaces. I spend most of my days working on algorithms for discovering Nash equilibria in stochastic, partial-information games like poker. If successful, these techniques may have important consequences for the next-generation smart energy grid and other reinforcement learning systems.
+
+ **Education**
+ 2011--Present: Pursuing PhD in Computer Science, University of Texas at Austin
+     GPA 3.45
+     Graduate Coursework:
+     Graphical Models, Neural Networks,
+     Natural Language Processing, Reinforcement Learning
+     Mathematical Logic, Computer Security, Programming Languages
+
+ 2006-2008: MS in Computer Science, Virginia Tech
+     GPA 3.81
+
+ 2003-2006: BS in Computer Science, Virginia Tech
+     GPA 3.55
+
+ **Select Publications**
+ W. Tansey, E. Feasley, and R. Miikkulainen. Accelerating evolution via egalitarian social learning. In Proceedings of the Fourteenth International Conference on Genetic and Evolutionary Computation Conference (GECCO 2012), pages 919-926. ACM, 2012.
+
+ R. Miikkulainen, E. Feasley, L. Johnson, I. Karpov, P. Rajagopalan, A. Rawal, and W. Tansey. Multiagent learning through neuroevolution. Advances in Computational Intelligence, pages 24-46, 2012.
+
+ W. Tansey and E. Tilevich. Annotation refactoring: inferring upgrade transformations for legacy applications. In Proceedings of the 23rd ACM SIGPLAN Conference on Object-
+ Oriented Programming Systems, Languages, and Applications (OOPSLA 2008), volume 43, pages 295-312. ACM, 2008.
+
+ W. Tansey and E. Tilevich. E cient automated marshaling of C++ data structures for MPI applications. In Proceedings of the 2008 IEEE International Symposium on Parallel and Distributed Processing (IPDPS 2008), pages 1-12. IEEE, 2008.
+
+ **Work Experience**
+ Currently: Research Assistant, UT Austin
+     In the Neural Networks group led by Risto Miikkulainen
+     Researching function approximators and algorithms for solving large-scale stochastic games of partial information (poker). 
+     Co-wrote grant that earned funding from the NSF’s BEACON Center for the Study of Evolution in Action.
+
+ 2011-2012 Co-founder, Curvio
+     Built, launched, and iterated a consumer web startup.
+     Organically grew site to 2k uniques/day. Managed a team of 12 remote contractors and hundreds of turkers.
+
+ 2011 Teaching Assistant, Computer Science Department, UT Austin
+     Participated in developing course materials for hundreds of students.
+     Helped setup up competition for AI MOOC class taught by Peter Norvig. Directly managed team of four undergrad researchers.
+
+ 2010 Co-founder, EffectCheck
+     Created novel machine learning algorithms for sentiment analysis.
+     Worked all areas of the business: front-end, back-end, sales, partnerships, and marketing.
+
+ 2010-2011 Machine Learning Contractor, Natural Selection Financial
+     Researched adaptive machine learning models for quantitative  nance.
+     Developed algorithms that explore huge data sets and discover exploitable patterns in market prices.
+
+ 2008-2010 Research Associate, Lincoln Vale Adaptive Strategies (Hedge Fund)
+     Researched and implemented machine learning algorithms for automated trading.
+     Developed 20+ real-world trading algorithms, with millions of dollars wagered on their predictions every day.
+
+ **Skills**
+ Python, Ruby, MATLAB, R, C#, C/C++, Java, HTML, CSS, and Javascript
+ Technical writing, team leadership, startups, games
+ Building systems to collect, clean, analyze, and learn from data and experience
+
+ **Awards and Miscellanea**
+ Recipient of NSF Beacon Grant
+ NSF GRFP, Honorable Mention in Machine Learning category
+ Outstanding Graduate Student Award, Virginia Tech
+ Finished the San Diego Rock’n’Rock Marathon in 5:38:11
+ Projects available on my website: http://cs.utexas.edu/~tansey
+ 
