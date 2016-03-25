@@ -1,9 +1,10 @@
 \documentclass[10pt]{article}
-\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage{natbib, array, xcolor, lipsum, bibentry, hyperref}
 \usepackage[margin=2cm]{geometry}
 
+
 \title{\bfseries\Huge {Wesley Tansey}}
-\author{wes.tansey@gmail.com\hspace{200pt}(804)-867-5306\\\texttt{http://cs.utexas.edu/\textasciitilde tansey}\hspace{100pt}608 1/2 Genard St., Unit B, Austin, TX}
+\author{wes.tansey@gmail.com\hspace{200pt}(804)-867-5306\\\texttt{http://cs.utexas.edu/\textasciitilde tansey}\hspace{100pt}907 E 53rd St., Austin, TX}
 \date{}
 \definecolor{lightgray}{gray}{0.8}
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
@@ -33,17 +34,21 @@ I'm a Computer Science PhD student at UT Austin. My main research interests are 
 2003-2006&{\bf BS in Computer Science, Virginia Tech}\\ & GPA 3.55
 \end{tabular}
 
-\bibliographystyle{plain}
+% \bibliographystyle{plain}
+% \nobibliography{pubs}
+\bibliographystyle{abbrvnat}
 \nobibliography{pubs}
-\section*{Select Publications}
+\section*{Select Papers}
 \begin{tabular}{L!{\VRule}R}
-2015&\bibentry{tansey:etal:2015}\vspace{5pt}\\
-2014&\bibentry{tansey:etal:2014}\vspace{5pt}\\
+2015&\bibentry{tansey:etal:spatialdensity:2015}\vspace{5pt}\\
+2015&\bibentry{tansey:etal:icml:2015}\vspace{5pt}\\
+2015&\bibentry{tansey:etal:gfl:2015}\vspace{5pt}\\
+2014&\bibentry{tansey:etal:fdrsmoothing:2014}\vspace{5pt}\\
 %2012&\bibentry{tansey2012accelerating}\vspace{5pt}\\
 %2012&\bibentry{miikkulainen2012multiagent}\vspace{5pt}\\
 %2009&\bibentry{song2009trailblazer}\\
-2008&\bibentry{tansey2008annotation}\\
-2008&\bibentry{tansey2008efficient}\\
+%2008&\bibentry{tansey2008annotation}\\
+%2008&\bibentry{tansey2008efficient}\\
 %2008&\bibentry{gopal2008dexter}\\
 \end{tabular}
 
@@ -90,14 +95,14 @@ Currently&{\bf PhD Student, UT Austin}\\
 & Building systems to collect, clean, analyze, and learn from data\\
 \end{tabular}
 
-{
+
 \section*{Awards and Miscellanea}
 \begin{tabular}{L!{\VRule}R}
 & 2x Recipient of the Garg Fellowship for Research with Real-World Impact\\
 & Recipient of NSF Beacon Grant\\
 & NSF Graduate Research Fellowship Program, Honorable Mention in Machine Learning\\
 & Outstanding Graduate Student Award, Virginia Tech\\
-& Projects available on my website: http://cs.utexas.edu/\textasciitilde tansey
+& Projects available on my website: \url{http://cs.utexas.edu/~tansey}
 \end{tabular}
 
 \end{document}

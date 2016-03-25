@@ -1,0 +1,33 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Tansey and Scott(2015)]{tansey:etal:gfl:2015}
+W.~Tansey and J.~G. Scott.
+\newblock A fast and flexible algorithm for the graph-fused lasso.
+\newblock \emph{arXiv preprint arXiv:1505.06475}, 2015.
+
+\bibitem[Tansey et~al.(2014)Tansey, Koyejo, Poldrack, and
+  Scott]{tansey:etal:fdrsmoothing:2014}
+W.~Tansey, O.~Koyejo, R.~Poldrack, and J.~Scott.
+\newblock False discovery rate smoothing.
+\newblock \emph{arXiv preprint arXiv:1411.6144}, 2014.
+
+\bibitem[Tansey et~al.(2015{\natexlab{a}})Tansey, Athey, Reinhart, and
+  Scott]{tansey:etal:spatialdensity:2015}
+W.~Tansey, A.~Athey, A.~Reinhart, and J.~G. Scott.
+\newblock Multiscale spatial density smoothing: an application to large-scale
+  radiological survey and anomaly detection.
+\newblock \emph{arXiv preprint arXiv:1507.07271}, 2015{\natexlab{a}}.
+
+\bibitem[Tansey et~al.(2015{\natexlab{b}})Tansey, Madrid-Padilla, Suggala, and
+  Ravikumar]{tansey:etal:icml:2015}
+W.~Tansey, O.-H. Madrid-Padilla, A.~Suggala, and P.~Ravikumar.
+\newblock Vector-space markov random fields via exponential families.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning (ICML'15)}, 2015{\natexlab{b}}.
+
+\end{thebibliography}
