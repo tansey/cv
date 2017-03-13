@@ -1,6 +1,7 @@
 \documentclass[10pt]{article}
 \usepackage{natbib, array, xcolor, lipsum, bibentry, hyperref}
 \usepackage[margin=2cm]{geometry}
+\usepackage{longtable}
 
 
 \title{\bfseries\Huge {Wesley Tansey}}
@@ -15,55 +16,70 @@
 \maketitle
 
 %\vspace{20pt}
-\section*{Research Statement}
-\begin{tabular}{L!{\VRule}R}
-&
+% \section*{Research Statement}
+% \begin{tabular}{L!{\VRule}R}
+% &
 
-I'm a Computer Science PhD student at UT Austin. My main research interests are health and wellness applications of machine learning, particularly those involving graphical models, Bayesian statistical methods, and scalable inference algorithms. My current projects include obesity and nutrition modeling, wearable devices for fitness tracking, and large-scale multiple hypothesis testing for fMRI and allele frequency studies. I am passionate about taking my research into the real world and am continually looking for new opportunities to collaborate with tech startups wishing to improve the lives of their users.
-\end{tabular}
-
+% I'm a Computer Science PhD candidate at UT Austin. My main research interests are health and wellness applications of machine learning, particularly those involving graphical models, Bayesian statistical methods, and scalable inference algorithms. My current projects include obesity and nutrition modeling, wearable devices for fitness tracking, and large-scale multiple hypothesis testing for fMRI and allele frequency studies. I am passionate about taking my research into the real world and am continually looking for new opportunities to collaborate with tech startups wishing to improve the lives of their users.
+% \end{tabular}
 
 \section*{Education}
 \begin{tabular}{L!{\VRule}R}
-2011--Present&{\bf Pursuing PhD in Computer Science, University of Texas at Austin}\vspace{5pt}\\
-			& {\bf Graduate Coursework:}\\
-&{\it Graphical Models, Neural Networks, Bayesian Statistical Methods,},\\
-& {\it Natural Language Processing, Reinforcement Learning, Statistical Modeling II,}\\
-& {\it MCMC Methods, Mathematical Logic, Computer Security, Programming Languages}\\
-2006-2008&{\bf MS in Computer Science, Virginia Tech}\\ & GPA 3.81\\
-2003-2006&{\bf BS in Computer Science, Virginia Tech}\\ & GPA 3.55
+2011--Present&{\bf PhD candidate in Computer Science, University of Texas at Austin}\\
+% 			& {\bf Graduate Coursework:}\\
+% &{\it Graphical Models, Neural Networks, Bayesian Statistical Methods,},\\
+% & {\it Natural Language Processing, Reinforcement Learning, Statistical Modeling II,}\\
+% & {\it MCMC Methods, Mathematical Logic, Computer Security, Programming Languages}\\
+2006-2008&{\bf MS in Computer Science, Virginia Tech}\\ %& GPA 3.81\\
+2003-2006&{\bf BS in Computer Science, Virginia Tech}\\ %& GPA 3.55
 \end{tabular}
 
 % \bibliographystyle{plain}
 % \nobibliography{pubs}
 \bibliographystyle{abbrvnat}
 \nobibliography{pubs}
-\section*{Select Papers}
-\begin{tabular}{L!{\VRule}R}
-2015&\bibentry{tansey:etal:spatialdensity:2015}\vspace{5pt}\\
+\section*{Publications}
+\begin{longtable}{L!{\VRule}R}
+2017&\bibentry{tansey:etal:fdrsmoothing:2017}\vspace{5pt}\\
+2017&\bibentry{tansey:etal:spatialdensity:2017}\vspace{5pt}\\
+2016&\bibentry{tansey:etal:nips:2016}\vspace{5pt}\\
 2015&\bibentry{tansey:etal:icml:2015}\vspace{5pt}\\
-2015&\bibentry{tansey:etal:gfl:2015}\vspace{5pt}\\
-2014&\bibentry{tansey:etal:fdrsmoothing:2014}\vspace{5pt}\\
-%2012&\bibentry{tansey2012accelerating}\vspace{5pt}\\
-%2012&\bibentry{miikkulainen2012multiagent}\vspace{5pt}\\
-%2009&\bibentry{song2009trailblazer}\\
-%2008&\bibentry{tansey2008annotation}\\
-%2008&\bibentry{tansey2008efficient}\\
-%2008&\bibentry{gopal2008dexter}\\
-\end{tabular}
+2012&\bibentry{miikkulainen:etal:2012}\vspace{5pt}\\
+2012&\bibentry{tansey:etal:2012}\vspace{5pt}\\
+2009&\bibentry{song:etal:2009}\vspace{5pt}\\
+2008&\bibentry{tansey:tilevich:oopsla:2008}\vspace{5pt}\\
+2008&\bibentry{tansey:tilevich:ipdps:2008}\vspace{5pt}\\
+2008&\bibentry{gopal:etal:2008}\\
+\end{longtable}
 
-\vspace{20pt}
-\section*{Work Experience}
-\begin{tabular}{L!{\VRule}R}
-Currently&{\bf PhD Student, UT Austin}\\
-& Co-advised by Carlos Carvalho, James G. Scott, and Pradeep Ravikumar.\\
+\section*{Presentations and Talks}
+\begin{longtable}{L!{\VRule}R}
+& ``Diet2Vec: Multi-scale Analysis of Massive Dietary Data''; NIPS Workshop on Machine Learning for Health (poster); Barcelona, Spain; 2016 \\\\
+& ``False Discovery Rate Smoothing''; Joint Statistical Meetings; Seattle, WA; 2015 \\\\
+& ``Vector-space MRFs via Exponential Families''; The 32nd International Conference on Machine Learning; Lille, France; 2015 \\\\
+& ``False Discovery Rate Smoothing''; ISBA Nonparametric Bayes; Raleigh, NC; 2015 \\\\
+& ``Accelerating Evolution via Egalitarian Social Learning''; International Conference on Genetic and Evolutionary Computation Conference; Philadelphia, PA; 2012 \\\\
+& ``Annotation Refactoring: Inferring Upgrade Transformations for Legacy Applications''; 24th ACM SIGPLAN Conference on Object Oriented Programming Systems, Languages, and Applications; Nashville, TN; 2009 \\\\
+& ``Efficient Automated Marshaling of C++ Data Structures for MPI Applications''; IEEE International Symposium on Parallel and Distributed Processing; Miami, FL; 2008 \\
+\end{longtable}
+
+\section*{Experience}
+\begin{longtable}{L!{\VRule}R}
+Currently&{\bf PhD Candidate, UT Austin}\\
+& Advisor: Prof. James G. Scott.\\
 & Focused on high-dimensional inference problems in machine learning.\\\\
+2016 & {\bf Visiting Researcher, Duke University}\\
+& Supervisor: Prof. Lawerence Carin\\
+& Investigated scalable Bayesian methods\\\\
 2015 & {\bf Visiting Researcher, Stanford University}\\
-& Worked on large-scale multiple hypothesis testing techniques for fMRI data.\\
-& Results deployed in neuroimaging experiments and two publicly available software packages.\\\\
+& Supervisor: Prof. Russell Poldrack\\
+& Worked on large-scale multiple hypothesis testing techniques for fMRI data.\\\\
 2014 & {\bf Data Science Intern, MyFitnessPal}\\
 & Statistical modeling of millions of nutritional diaries.\\
 & Created large-scale inference experiments to predict user weight-loss success.\\\\
+2013-2014 & {\bf Machine Learning Consultant, Atlas Wearables}\\
+& Designed initial exercise recognition algorithm for a new smart watch.\\
+& Brought a working product to market with excellent recognition performance in the real world.\\\\
 2013 & {\bf Software Engineering Intern, Google}\\
 & Researched how to improve automated auction bidding.\\
 & Implemented and evaluated alternative bidding strategy experiments on massive datasets.\\\\
@@ -82,27 +98,15 @@ Currently&{\bf PhD Student, UT Austin}\\
 2008-2010 & \textbf{Research Associate, Lincoln Vale Adaptive Strategies (Hedge Fund)}\\
      & Researched and implemented machine learning algorithms for automated trading.\\
      & Developed 20+ real-world trading algorithms, with millions of dollars wagered on their predictions every day.\\
-\end{tabular}
-
-
-
-
-
-\section*{Skills}
-\begin{tabular}{L!{\VRule}R}
-& Python, Ruby, R, C\#, C/C++, Java, HTML, CSS, and Javascript\\
-& Technical writing, team leadership, startups, statistical modeling\\
-& Building systems to collect, clean, analyze, and learn from data\\
-\end{tabular}
-
+\end{longtable}
 
 \section*{Awards and Miscellanea}
-\begin{tabular}{L!{\VRule}R}
-& 2x Recipient of the Garg Fellowship for Research with Real-World Impact\\
-& Recipient of NSF Beacon Grant\\
-& NSF Graduate Research Fellowship Program, Honorable Mention in Machine Learning\\
-& Outstanding Graduate Student Award, Virginia Tech\\
+\begin{longtable}{L!{\VRule}R}
+& 2x Recipient of the Garg Fellowship for Research with Real-World Impact\\\\
+& Recipient of NSF Beacon Grant\\\\
+& NSF Graduate Research Fellowship Program, Honorable Mention in Machine Learning\\\\
+& Outstanding Graduate Student Award, Virginia Tech\\\\
 & Projects available on my website: \url{http://cs.utexas.edu/~tansey}
-\end{tabular}
+\end{longtable}
 
 \end{document}
