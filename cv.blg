@@ -6,7 +6,7 @@ Database file #1: pubs.bib
 Warning--can't use both volume and number fields in tansey:tilevich:oopsla:2008
 You've used 10 entries,
             2773 wiz_defined-function locations,
-            649 strings with 7084 characters,
+            649 strings with 7055 characters,
 and the built_in function-call counts, 5741 in all, are:
 = -- 516
 > -- 354

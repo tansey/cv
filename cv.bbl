@@ -62,27 +62,26 @@ M.~Song, E.~Tilevich, and \textbf{Tansey, W.}
 \newblock In \emph{Proceedings of the 32nd International Conference on Machine
   Learning (ICML'15)}, 2015.
 
-\bibitem[\textbf{Tansey, W.} et~al.(2016)\textbf{Tansey, W.}, Lowe, and
-  Scott]{tansey:etal:nips:2016}
-\textbf{Tansey, W.}, E.~W. Lowe, and J.~G. Scott.
-\newblock Diet2vec: Multi-scale analysis of massive dietary data.
-\newblock In \emph{Proceedings of the 2016 NIPS Workshop on Machine Learning
-  for Health}, 2016.
-
-\bibitem[\textbf{Tansey, W.} et~al.(2017{\natexlab{a}})\textbf{Tansey, W.},
-  Athey, Reinhart, and Scott]{tansey:etal:spatialdensity:2017}
+\bibitem[\textbf{Tansey, W.} et~al.(2016{\natexlab{a}})\textbf{Tansey, W.},
+  Athey, Reinhart, and Scott]{tansey:etal:spatialdensity:2016}
 \textbf{Tansey, W.}, A.~Athey, A.~Reinhart, and J.~G. Scott.
 \newblock Multiscale spatial density smoothing: an application to large-scale
   radiological survey and anomaly detection.
 \newblock \emph{Accepted to the Journal of the American Statistical
-  Association: Applications and Case Studies}, 2017{\natexlab{a}}.
+  Association: Applications and Case Studies}, 2016{\natexlab{a}}.
 
-\bibitem[\textbf{Tansey, W.} et~al.(2017{\natexlab{b}})\textbf{Tansey, W.},
-  Koyejo, Poldrack, and Scott]{tansey:etal:fdrsmoothing:2017}
+\bibitem[\textbf{Tansey, W.} et~al.(2016{\natexlab{b}})\textbf{Tansey, W.},
+  Lowe, and Scott]{tansey:etal:nips:2016}
+\textbf{Tansey, W.}, E.~W. Lowe, and J.~G. Scott.
+\newblock Diet2vec: Multi-scale analysis of massive dietary data.
+\newblock In \emph{Proceedings of the 2016 NIPS Workshop on Machine Learning
+  for Health}, 2016{\natexlab{b}}.
+
+\bibitem[\textbf{Tansey, W.} et~al.(2017)\textbf{Tansey, W.}, Koyejo, Poldrack,
+  and Scott]{tansey:etal:fdrsmoothing:2017}
 \textbf{Tansey, W.}, O.~Koyejo, R.~Poldrack, and J.~Scott.
 \newblock False discovery rate smoothing.
 \newblock \emph{Accepted to the Journal of the American Statistical
-  Association: Theory and Methods (subject to minor revisions)},
-  2017{\natexlab{b}}.
+  Association: Theory and Methods}, 2017.
 
 \end{thebibliography}
