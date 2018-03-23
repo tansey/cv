@@ -4,45 +4,45 @@ The top-level auxiliary file: cv.aux
 The style file: abbrvnat.bst
 Database file #1: pubs.bib
 Warning--can't use both volume and number fields in tansey:tilevich:oopsla:2008
-You've used 10 entries,
+You've used 12 entries,
             2773 wiz_defined-function locations,
-            649 strings with 7055 characters,
-and the built_in function-call counts, 5741 in all, are:
-= -- 516
-> -- 354
+            661 strings with 7407 characters,
+and the built_in function-call counts, 6742 in all, are:
+= -- 598
+> -- 414
 < -- 9
-+ -- 120
-- -- 108
-* -- 455
-:= -- 838
-add.period$ -- 35
-call.type$ -- 10
-change.case$ -- 66
-chr.to.int$ -- 8
-cite$ -- 21
-duplicate$ -- 275
-empty$ -- 451
-format.name$ -- 122
-if$ -- 1250
-int.to.chr$ -- 3
++ -- 141
+- -- 126
+* -- 545
+:= -- 984
+add.period$ -- 41
+call.type$ -- 12
+change.case$ -- 78
+chr.to.int$ -- 9
+cite$ -- 25
+duplicate$ -- 324
+empty$ -- 545
+format.name$ -- 142
+if$ -- 1462
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 10
-newline$ -- 58
-num.names$ -- 40
-pop$ -- 152
+missing$ -- 12
+newline$ -- 68
+num.names$ -- 48
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 66
 quote$ -- 0
-skip$ -- 215
+skip$ -- 242
 stack$ -- 0
-substring$ -- 191
-swap$ -- 71
+substring$ -- 226
+swap$ -- 77
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 110
+type$ -- 132
 warning$ -- 1
-while$ -- 48
+while$ -- 56
 width$ -- 0
-write$ -- 139
+write$ -- 164
 (There was 1 warning)
