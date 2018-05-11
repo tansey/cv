@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -81,8 +81,8 @@ M.~Song, E.~Tilevich, and \textbf{Tansey, W.}
   Koyejo, Poldrack, and Scott]{tansey:etal:fdrsmoothing:2017}
 \textbf{Tansey, W.}, O.~Koyejo, R.~Poldrack, and J.~Scott.
 \newblock False discovery rate smoothing.
-\newblock \emph{Accepted to the Journal of the American Statistical
-  Association}, 2017{\natexlab{b}}.
+\newblock \emph{Journal of the American Statistical Association},
+  2017{\natexlab{b}}.
 
 \bibitem[\textbf{Tansey, W.} et~al.(2018{\natexlab{a}})\textbf{Tansey, W.},
   Pichotta, and Scott]{tansey:etal:aaai:2018:leafsmoothing}
@@ -98,5 +98,12 @@ M.~Song, E.~Tilevich, and \textbf{Tansey, W.}
   smoothing.
 \newblock In \emph{Proceedings of the 32nd AAAI Conference on Artificial
   Intelligence (AAAI'18)}, 2018{\natexlab{b}}.
+
+\bibitem[\textbf{Tansey, W.} et~al.(2018{\natexlab{c}})\textbf{Tansey, W.},
+  Wang, Blei, and Rabadan]{tansey:etal:icml:2018:bbfdr}
+\textbf{Tansey, W.}, Y.~Wang, D.~B. Blei, and R.~Rabadan.
+\newblock Black box {{FDR}}.
+\newblock In \emph{Accepted to International Conference on Machine Learning
+  (ICML'18)}, 2018{\natexlab{c}}.
 
 \end{thebibliography}
