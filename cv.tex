@@ -1,11 +1,13 @@
 \documentclass[10pt]{article}
-\usepackage{natbib, array, xcolor, lipsum, bibentry, hyperref}
+\usepackage[numbers]{natbib}
+\usepackage{array, xcolor, lipsum, bibentry, hyperref}
 \usepackage[margin=2cm]{geometry}
 \usepackage{longtable}
+\usepackage{url}
 
 
 \title{\bfseries\Huge {Wesley Tansey}}
-\author{wt2274@cumc.columbia.edu\hspace{200pt}(804)-867-5306\\\texttt{wesleytansey.com}\hspace{100pt}302A W 121st St Apt 3, New York, NY}
+\author{wesley.tansey@columbia.edu\hspace{234pt}(804)-867-5306\\\texttt{wesleytansey.com}\hspace{120pt}294 Clifton Place Apt 1, Brooklyn, NY 11216}
 \date{}
 \definecolor{lightgray}{gray}{0.8}
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
@@ -26,6 +28,8 @@
 \section*{Education}
 \begin{tabular}{L!{\VRule}R}
 2011--2017&{\bf PhD in Computer Science, University of Texas at Austin}\\
+&{Advisor: Prof. James G. Scott}\\
+&{Dissertation: Scalable smoothing algorithms for massive graph-structured data}\\
 % 			& {\bf Graduate Coursework:}\\
 % &{\it Graphical Models, Neural Networks, Bayesian Statistical Methods,},\\
 % & {\it Natural Language Processing, Reinforcement Learning, Statistical Modeling II,}\\
@@ -34,20 +38,84 @@
 2003--2006&{\bf BS in Computer Science, Virginia Tech}\\ %& GPA 3.55
 \end{tabular}
 
-\section*{Experience}
-\begin{longtable}{L!{\VRule}R}
+\section*{Academic Appointments}
+\begin{tabular}{L!{\VRule}R}
 2017--Present&{\bf Postdoctoral Research Scientist, Columbia University}\\
-& Supervisors: Profs. Raul Rabadan, Chris Wiggins, and David Blei.\\\\
+& Supervisors: Profs. Raul Rabadan and David Blei.\vspace{5pt}\\
 % & Machine learning and statistics for cancer genomics.\\\\
-2011--2017&{\bf Graduate Research Assistant, UT Austin}\\
-& Advisor: Prof. James G. Scott.\\\\
 % & Focused on high-dimensional inference problems in machine learning.\\\\
 2016 & {\bf Visiting Researcher, Duke University}\\
-& Supervisor: Prof. Lawerence Carin\\\\
+& Supervisor: Prof. Lawerence Carin\vspace{5pt}\\
 % & Investigated scalable Bayesian methods.\\\\
 2015 & {\bf Visiting Researcher, Stanford University}\\
-& Supervisor: Prof. Russell Poldrack\\\\
+& Supervisor: Prof. Russell Poldrack\vspace{5pt}
 % & Worked on large-scale multiple hypothesis testing techniques for fMRI data.\\\\
+\end{tabular}
+
+\section*{Awards}
+\begin{tabular}{L!{\VRule}R}
+& Columbia Data Science Institute Seed Funds Grant: \$200K to develop personalized cancer therapies using deep probabilistic models\vspace{5pt}\\
+& 2x Recipient of the Garg Fellowship for Research with Real-World Impact\vspace{5pt}\\
+& Recipient of NSF Beacon Grant\vspace{5pt}\\
+& NSF Graduate Research Fellowship Program, Honorable Mention in Machine Learning\vspace{5pt}\\
+& Outstanding Graduate Student Award, Virginia Tech
+\end{tabular}
+
+\bibliographystyle{plainurl}
+\nobibliography{pubs}
+% \bibliographystyle{abbrvnat}
+% \nobibliography{pubs}
+\section*{Publications and Preprints}
+\begin{longtable}{L!{\VRule}R}
+2019&\bibentry{tansey:etal:2019:btf}.\vspace{5pt}\\
+2019&\bibentry{burns:etal:2019:interpreting}.\vspace{5pt}\\
+2018&\bibentry{tansey:etal:2018:dose-response}.\vspace{5pt}\\
+2018&\bibentry{tansey:etal:jrssb:2018:hrt}.\vspace{5pt}\\
+2018&\bibentry{tansey:etal:icml:2018:bbfdr}.\vspace{5pt}\\
+2018&\bibentry{tansey:etal:fdrsmoothing:2018}.\vspace{5pt}\\
+2018&\bibentry{tansey:etal:aaai:2018:leafsmoothing}.\vspace{5pt}\\
+2018&\bibentry{tansey:etal:aaai:2018:crispier}.\vspace{5pt}\\
+2017&\bibentry{tansey:etal:spatialdensity:2017}.\vspace{5pt}\\
+2016&\bibentry{tansey:etal:nips:2016}.\vspace{5pt}\\
+2015&\bibentry{tansey:etal:icml:2015}.\vspace{5pt}\\
+2012&\bibentry{miikkulainen:etal:2012}.\vspace{5pt}\\
+2012&\bibentry{tansey:etal:2012}.\vspace{5pt}\\
+2009&\bibentry{song:etal:2009}.\vspace{5pt}\\
+2008&\bibentry{tansey:tilevich:oopsla:2008}.\vspace{5pt}\\
+2008&\bibentry{tansey:tilevich:ipdps:2008}.\vspace{5pt}\\
+2008&\bibentry{gopal:etal:2008}.\\
+\end{longtable}
+
+
+\section*{Presentations and Talks}
+\begin{longtable}{L!{\VRule}R}
+2019 & ``Interpreting and Learning from Black Box Models''; Broad Institute series on Models, Inference, and Algorithms; Cambridge, MA. \\\\
+2018 & ``Dose-Response Modeling in High Throughput Cancer Drug Screening: Probabilistic deep learning with statistical guarantees''; Broad Institute Next Generation in Biomedicine Symposium; Cambridge, MA. \\\\
+2018 & ``A Deep Learning Approach to Dose-Response Modeling in High Throughput Cancer Drug Screenings''; Nature Conference on Big Data and Cancer; Boston, MA. \\\\
+2018 & ``Holdout randomization tests: Easy and principled feature selection in black box models''; University of Illinois at Urbana-Champaign; Champaign, IL. \\\\
+2018 & ``Holdout randomization tests: Easy and principled feature selection in black box models''; University of Notre Dame; South Bend, IN. \\\\
+2018 & ``Holdout randomization tests: Easy and principled feature selection in black box models''; University of Chicago; Chicago, IL. \\\\
+2018 & ``Black Box FDR''; ICML'18; Stockholm, Sweden. \\\\
+2018 & ``Predictive Modeling of Treatment Efficacy in Cancer Cell Lines''; Department of Statistics, University of Texas at Austin; Austin, TX. \\\\
+2016 & ``Diet2Vec: Multi-scale Analysis of Massive Dietary Data''; NIPS Workshop on Machine Learning for Health (poster); Barcelona, Spain. \\\\
+2015 & ``False Discovery Rate Smoothing''; Joint Statistical Meetings; Seattle, WA. \\\\
+2015 & ``Vector-space MRFs via Exponential Families''; The 32nd International Conference on Machine Learning; Lille, France. \\\\
+2015 & ``False Discovery Rate Smoothing''; ISBA Nonparametric Bayes; Raleigh, NC. \\\\
+2012 & ``Accelerating Evolution via Egalitarian Social Learning''; International Conference on Genetic and Evolutionary Computation Conference; Philadelphia, PA. \\\\
+2009 & ``Annotation Refactoring: Inferring Upgrade Transformations for Legacy Applications''; 24th ACM SIGPLAN Conference on Object Oriented Programming Systems, Languages, and Applications; Nashville, TN. \\\\
+2008 & ``Efficient Automated Marshaling of C++ Data Structures for MPI Applications''; IEEE International Symposium on Parallel and Distributed Processing; Miami, FL. \\
+\end{longtable}
+
+
+\section*{Professional Service}
+\begin{tabular}{L!{\VRule}R}
+& Co-organizer: 2018 \& 2019 ICML Workshops on Computational Biology \vspace{5pt}\\
+& Reviewer: JASA, AoS, AoAS, Biostatistics, JMLR, NeurIPS \vspace{5pt} \\
+& Intellectual Entrepreneurship pre-grad mentor
+\end{tabular}
+
+\section*{Other Experience}
+\begin{longtable}{L!{\VRule}R}
 2014 & {\bf Data Science Intern, MyFitnessPal}\\
 % & Statistical modeling of millions of nutritional diaries.\\
 % & Created large-scale inference experiments to predict user weight-loss success.\\\\
@@ -72,57 +140,6 @@
 2008--2010 & \textbf{Quantitative Research Associate, Lincoln Vale Adaptive Strategies (Hedge Fund)}\\
      % & Researched and implemented machine learning algorithms for automated trading.\\
      % & Developed 20+ real-world trading algorithms, with millions of dollars wagered on their predictions every day.\\
-\end{longtable}
-
-% \bibliographystyle{plain}
-% \nobibliography{pubs}
-\bibliographystyle{abbrvnat}
-\nobibliography{pubs}
-\section*{Publications}
-\begin{longtable}{L!{\VRule}R}
-2018&\bibentry{tansey:etal:icml:2018:bbfdr}.\vspace{5pt}\\
-2018&\bibentry{tansey:etal:aaai:2018:leafsmoothing}.\vspace{5pt}\\
-2018&\bibentry{tansey:etal:aaai:2018:crispier}.\vspace{5pt}\\
-2017&\bibentry{tansey:etal:fdrsmoothing:2017}.\vspace{5pt}\\
-2017&\bibentry{tansey:etal:spatialdensity:2017}.\vspace{5pt}\\
-2016&\bibentry{tansey:etal:nips:2016}.\vspace{5pt}\\
-2015&\bibentry{tansey:etal:icml:2015}.\vspace{5pt}\\
-2012&\bibentry{miikkulainen:etal:2012}.\vspace{5pt}\\
-2012&\bibentry{tansey:etal:2012}.\vspace{5pt}\\
-2009&\bibentry{song:etal:2009}.\vspace{5pt}\\
-2008&\bibentry{tansey:tilevich:oopsla:2008}.\vspace{5pt}\\
-2008&\bibentry{tansey:tilevich:ipdps:2008}.\vspace{5pt}\\
-2008&\bibentry{gopal:etal:2008}.\\
-\end{longtable}
-
-\section*{Professional Service}
-\begin{longtable}{L!{\VRule}R}
-& Co-organizer: 2018 ICML Workshop on Computational Biology \\
-& Reviewer: JASA (Theory \& Methods), AoAS, JMLR, NIPS \\
-& Intellectual Entrepreneurship pre-grad mentor
-\end{longtable}
-
-\section*{Presentations and Talks}
-\begin{longtable}{L!{\VRule}R}
-& ``Black Box FDR''; ICML'18; Stockholm, Sweden; 2018 \\\\
-& ``Predictive Modeling of Treatment Efficacy in Cancer Cell Lines''; Department of Statistics, University of Texas at Austin; Austin, TX; 2018 \\\\
-& ``Diet2Vec: Multi-scale Analysis of Massive Dietary Data''; NIPS Workshop on Machine Learning for Health (poster); Barcelona, Spain; 2016 \\\\
-& ``False Discovery Rate Smoothing''; Joint Statistical Meetings; Seattle, WA; 2015 \\\\
-& ``Vector-space MRFs via Exponential Families''; The 32nd International Conference on Machine Learning; Lille, France; 2015 \\\\
-& ``False Discovery Rate Smoothing''; ISBA Nonparametric Bayes; Raleigh, NC; 2015 \\\\
-& ``Accelerating Evolution via Egalitarian Social Learning''; International Conference on Genetic and Evolutionary Computation Conference; Philadelphia, PA; 2012 \\\\
-& ``Annotation Refactoring: Inferring Upgrade Transformations for Legacy Applications''; 24th ACM SIGPLAN Conference on Object Oriented Programming Systems, Languages, and Applications; Nashville, TN; 2009 \\\\
-& ``Efficient Automated Marshaling of C++ Data Structures for MPI Applications''; IEEE International Symposium on Parallel and Distributed Processing; Miami, FL; 2008 \\
-\end{longtable}
-
-\section*{Awards and Miscellanea}
-\begin{longtable}{L!{\VRule}R}
-& Columbia Data Science Institute Seed Funds Grant: \$200K to develop personalized cancer therapies using deep probabilistic models\\\\
-& 2x Recipient of the Garg Fellowship for Research with Real-World Impact\\\\
-& Recipient of NSF Beacon Grant\\\\
-& NSF Graduate Research Fellowship Program, Honorable Mention in Machine Learning\\\\
-& Outstanding Graduate Student Award, Virginia Tech\\\\
-& Projects available on my website: \url{http://cs.utexas.edu/~tansey}
 \end{longtable}
 
 \end{document}
