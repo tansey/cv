@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex cv"] 1572377344 "cv.aux" "cv.bbl" "cv" 1572377345
-  "/usr/local/texlive/2018/texmf-dist/bibtex/bst/urlbst/plainurl.bst" 1480098436 31050 ffdaefb09013f5fd4b31e485c13933c1 ""
-  "cv.aux" 1572377345 2472 5aa81ce96c55881993a00d1f5ee5dda2 ""
-  "pubs.bib" 1572377340 5375 0c140daa847ba841ba23da28795ca49c ""
+["bibtex cv"] 1577652874 "cv.aux" "cv.bbl" "cv" 1584471298
+  "/usr/local/texlive/2018/texmf-dist/bibtex/bst/natbib/abbrvnat.bst" 1480098435 26532 66bed5cc59495faaa3f9ae9af9fa5e42 ""
+  "cv.aux" 1584471298 4172 d03f7ccbedd633626bbb7b952ed9ea93 ""
+  "pubs.bib" 1577652872 5594 f3b56ede107399ef41495b852e8d56e1 ""
   (generated)
   "cv.blg"
   "cv.bbl"
-["pdflatex"] 1572377344 "cv.tex" "cv.pdf" "cv" 1572377345
+["pdflatex"] 1584471297 "cv.tex" "cv.pdf" "cv" 1584471298
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -58,12 +58,12 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1541773946 2718919 354e653e0153c6f180217caa01d5457a ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "cv.aux" 1572377345 2472 5aa81ce96c55881993a00d1f5ee5dda2 ""
-  "cv.bbl" 1572377344 4754 5c4d57dbf6a55414ba4b2805ed0f5091 "bibtex cv"
-  "cv.out" 1572377345 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv.tex" 1572376953 8956 b9a7f54d4afce5823fc8f26ef5092826 ""
+  "cv.aux" 1584471298 4172 d03f7ccbedd633626bbb7b952ed9ea93 ""
+  "cv.bbl" 1577652874 7127 1b505653bfb6ba6419719c2e064d08ad "bibtex cv"
+  "cv.out" 1584471298 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cv.tex" 1584471297 9157 4c8fa5ffe76e88e1507798492beddc92 ""
   (generated)
+  "cv.out"
   "cv.pdf"
   "cv.log"
   "cv.aux"
-  "cv.out"
