@@ -1,0 +1,9 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Education}}{3}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Academic Appointments}}{3}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Awards}}{3}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{Professional Service}}{3}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Other Experience}}{4}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-6000}{QQ2-1-6}{Publications and Preprints}}{4}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-7000}{QQ2-1-7}{Invited Talks}}{5}\relax 
+\par 

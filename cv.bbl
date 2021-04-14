@@ -1,15 +1,22 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Burns et~al.(2019)Burns, Thomason, and \textbf{W.}
-  \textbf{Tansey}]{burns:etal:2019:interpreting}
+\bibitem[Altosaar et~al.(2021)Altosaar, Ranganath, and \textbf{W.}
+  \textbf{Tansey}]{altosaar:etal:2021:rankfromsets}
+J.~Altosaar, R.~Ranganath, and \textbf{W.} \textbf{Tansey}.
+\newblock {RankFromSets}: {S}calable set recommendation with optimal recall.
+\newblock \emph{Stat}, 2021.
+
+\bibitem[Burns et~al.(2020)Burns, Thomason, and \textbf{W.}
+  \textbf{Tansey}]{burns:etal:2020:interpreting}
 C.~Burns, J.~Thomason, and \textbf{W.} \textbf{Tansey}.
 \newblock Interpreting black box models via hypothesis testing.
-\newblock \emph{arXiv preprint arXiv:1904.00045}, 2019.
+\newblock In \emph{ACM-IMS Foundations of Data Science Conference (FODS)},
+  2020.
 
 \bibitem[Gopal et~al.(2008)Gopal, \textbf{W.} \textbf{Tansey}, Kannan, and
   Tilevich]{gopal:etal:2008}
@@ -32,6 +39,12 @@ M.~Song, E.~Tilevich, and \textbf{W.} \textbf{Tansey}.
 \newblock Trailblazer: {{A}} tool for automated annotation refactoring.
 \newblock In \emph{ACM SIGPLAN Conference on Object-Oriented Programming
   Systems, Languages, and Applications}, pages 813--814. ACM, 2009.
+
+\bibitem[Sudarshan et~al.(2020)Sudarshan, \textbf{W.} \textbf{Tansey}, and
+  Ranganath]{sudarshan:etal:2020:ddlk}
+M.~Sudarshan, \textbf{W.} \textbf{Tansey}, and R.~Ranganath.
+\newblock Deep direct likelihood knockoffs.
+\newblock In \emph{Neural Information Processing Systems (NeurIPS)}, 2020.
 
 \bibitem[\textbf{W.} \textbf{Tansey} and
   Tilevich(2008{\natexlab{a}})]{tansey:tilevich:ipdps:2008}
@@ -86,44 +99,26 @@ M.~Song, E.~Tilevich, and \textbf{W.} \textbf{Tansey}.
   (523):\penalty0 1156--1171, 2018{\natexlab{a}}.
 
 \bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{b}})\textbf{W.}
-  \textbf{Tansey}, Li, Zhang, Linderman, Rabadan, Blei, and
-  Wiggins]{tansey:etal:2018:dose-response}
-\textbf{W.} \textbf{Tansey}, K.~Li, H.~Zhang, S.~W.~L. Linderman, R.~Rabadan,
-  D.~M. Blei, and C.~H. Wiggins.
-\newblock Dose-response modeling in high-throughput cancer drug screenings:
-  {{A}}n end-to-end approach.
-\newblock \emph{In revision at Biostatistics (arXiv preprint
-  arXiv:1812.05691)}, 2018{\natexlab{b}}.
-
-\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{c}})\textbf{W.}
   \textbf{Tansey}, Pichotta, and Scott]{tansey:etal:aaai:2018:leafsmoothing}
 \textbf{W.} \textbf{Tansey}, K.~Pichotta, and J.~G. Scott.
 \newblock Leaf-smoothed hierarchical softmax for ordinal prediction.
 \newblock In \emph{AAAI Conference on Artificial Intelligence},
-  2018{\natexlab{c}}.
+  2018{\natexlab{b}}.
 
-\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{d}})\textbf{W.}
+\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{c}})\textbf{W.}
   \textbf{Tansey}, Thomason, and Scott]{tansey:etal:aaai:2018:crispier}
 \textbf{W.} \textbf{Tansey}, J.~Thomason, and J.~G. Scott.
 \newblock Maximum-variance total variation denoising for interpretable spatial
   smoothing.
 \newblock In \emph{AAAI Conference on Artificial Intelligence},
-  2018{\natexlab{d}}.
+  2018{\natexlab{c}}.
 
-\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{e}})\textbf{W.}
-  \textbf{Tansey}, Veitch, Zhang, Rabadan, and
-  Blei]{tansey:etal:jrssb:2018:hrt}
-\textbf{W.} \textbf{Tansey}, V.~Veitch, H.~Zhang, R.~Rabadan, and D.~M. Blei.
-\newblock The holdout randomization test: {{P}}rincipled and easy black box
-  feature selection.
-\newblock \emph{arXiv preprint arXiv:1811.00645}, 2018{\natexlab{e}}.
-
-\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{f}})\textbf{W.}
+\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2018{\natexlab{d}})\textbf{W.}
   \textbf{Tansey}, Wang, Blei, and Rabadan]{tansey:etal:icml:2018:bbfdr}
 \textbf{W.} \textbf{Tansey}, Y.~Wang, D.~M. Blei, and R.~Rabadan.
 \newblock Black box {{FDR}}.
 \newblock In \emph{International Conference on Machine Learning}, pages
-  4874--4883, 2018{\natexlab{f}}.
+  4874--4883, 2018{\natexlab{d}}.
 
 \bibitem[\textbf{W.} \textbf{Tansey} et~al.(2019{\natexlab{a}})\textbf{W.}
   \textbf{Tansey}, Loper, Lei, and Fithian]{tansey:etal:2019:nested-testing}
@@ -136,5 +131,28 @@ M.~Song, E.~Tilevich, and \textbf{W.} \textbf{Tansey}.
 \textbf{W.} \textbf{Tansey}, C.~Tosh, and D.~M. Blei.
 \newblock Relational dose-response modeling for cancer drug studies.
 \newblock \emph{arXiv preprint arXiv:1906.04072}, 2019{\natexlab{b}}.
+
+\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2020)\textbf{W.} \textbf{Tansey},
+  Li, Zhang, Linderman, Rabadan, Blei, and
+  Wiggins]{tansey:etal:2020:dose-response}
+\textbf{W.} \textbf{Tansey}, K.~Li, H.~Zhang, S.~W. Linderman, R.~Rabadan,
+  D.~M. Blei, and C.~H. Wiggins.
+\newblock Dose-response modeling in high-throughput cancer drug screenings:
+  {{A}}n end-to-end approach.
+\newblock \emph{Biostatistics (In Press)}, 2020.
+
+\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2021)\textbf{W.} \textbf{Tansey},
+  Wang, Rabadan, and Blei]{tansey:etal:2020:debt}
+\textbf{W.} \textbf{Tansey}, Y.~Wang, R.~Rabadan, and D.~Blei.
+\newblock Double empirical bayes testing.
+\newblock \emph{International Statistical Review}, 2021.
+
+\bibitem[\textbf{W.} \textbf{Tansey} et~al.(2021 (In Press))\textbf{W.}
+  \textbf{Tansey}, Veitch, Zhang, Rabadan, and Blei]{tansey:etal:2021:hrt}
+\textbf{W.} \textbf{Tansey}, V.~Veitch, H.~Zhang, R.~Rabadan, and D.~M. Blei.
+\newblock The holdout randomization test for feature selection in black box
+  models.
+\newblock \emph{Journal of Computational and Graphical Statistics}, 2021 (In
+  Press).
 
 \end{thebibliography}
